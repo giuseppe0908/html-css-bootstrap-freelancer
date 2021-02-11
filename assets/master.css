@@ -1,91 +1,125 @@
-
+/*--- AZZERAMENTO ---*/
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/*--- NAV-BAR ---*/
+.navbar-default {
+  border: 0;
+}
 .container-fluid{
 background-color: #2c3e50;
 }
+
 .navbar-default  .navbar-nav>li>a {
 color: white;
 }
+
 .navbar-default .navbar-brand {
   color: white;
 }
+
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
 color: #1abc9c;
 background-color: transparent;
 }
+/*--- MAIN ---*/
+
+/*--- BACKGROUND SECTION START BOOTSREAP ---*/
+
 .bg-green{
   background-color: #1abc9c;
   text-align: center;
-  /* height: 1000px; */
 }
+
 .trasparente{
   background-color: transparent;
 }
+
 img{
   margin-top: 60px;
   height: 250px;
   border-radius: 15px;
 }
+
 .color-white{
   color: white;
 }
-.magico{
-  position: relative;
+/*--- STELLA + LINEA ---*/
+.divisore{
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 40px;
+  /* margin-bottom: 10px; */
 }
-.linea{
-  height: 5px;
+.divisore i {
+  font-size: 32px;
+}
+.divisore::before, .divisore::after{
+  content: " ";
+  display: block;
+  width: 40%;
+  height: 4px;
+  margin-top: 12px;
   background-color: white;
-  width: 12%;
-  margin-left: 398px;
-  margin-top: 39px;
+}
+.divisore::before{
+  float: left;
+}
+.divisore::after{
+  float: right;
 }
 
 .fa-star{
   color: white;
-  /* height: 100px; */
-  font-size: 30px;
-  position: absolute;
-  top: 30px;
-  left: 553px;
 }
 
-.l{
-  position:absolute;
-  top:0;
-  right: 408px;
-}
 .trasparente > h1{
   font-size: 65px;
 }
+
 .trasparente > p{
-margin-top: 103px;
+margin-top: 41px;
 font-size: 25px;
+margin-bottom: 67px;
 }
+
+/*--- SECTION PORTFOLIO ---*/
+
 .portfolio{
   background-color: lightgrey;
   /* height: 1000px; */
   padding-bottom: 70px;
-
 }
+
 .text-center{
   text-align: center;
 }
+
 .black{
   color: black;
 }
-.color-black{
+
+.color-black::before, .color-black:after{
   background-color: black;
 }
+
 .portfolio .text-center > h1{
   margin-top: 30px;
+  font-size: 40px;
 }
+
 .text-left{
   text-align: left;
 }
+
 .col-lg-4 > p{
   margin-top: 60px;
   font-size: 20px;
   margin-left: 10px;
 }
+
 .btn{
   background-color:transparent;
   border: 2 solid white;
