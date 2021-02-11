@@ -1,15 +1,23 @@
 /*--- AZZERAMENTO ---*/
-*{
+ *{
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
+
 /*--- NAV-BAR ---*/
+
 .navbar-default {
   border: 0;
+  font-family: 'Montserrat', sans-serif ;
+  font-weight: 700;
+
 }
+
 .container-fluid{
 background-color: #2c3e50;
+padding-top: 1rem;
+padding-bottom: 1.5rem;
 }
 
 .navbar-default  .navbar-nav>li>a {
@@ -36,9 +44,12 @@ background-color: transparent;
 .trasparente{
   background-color: transparent;
 }
+.trasparente > img{
+  margin-top: 150px;
+}
 
 img{
-  margin-top: 60px;
+  margin-top: 50px;
   height: 250px;
   border-radius: 15px;
 }
@@ -93,6 +104,10 @@ margin-bottom: 67px;
   padding-bottom: 70px;
 }
 
+.prtfolio .text-center .divisore > i{
+  margin-bottom: -50px;
+}
+
 .text-center{
   text-align: center;
 }
@@ -123,4 +138,44 @@ margin-bottom: 67px;
 .btn{
   background-color:transparent;
   border: 2 solid white;
+}
+
+/*--- SECTION CONTACT ---*/
+.contact-me{
+  height: 100vh;
+}
+.contact-me > h1{
+  margin-top: 50px;
+}
+
+.mg-bottom{
+  margin-bottom: 30px;
+}
+.form .btn-xl{
+ margin-right: 650px;
+}
+
+.container > input, textarea{
+  margin-top: 30px;
+  margin-left: 220px;
+  padding-bottom: 20px;
+  display: block;
+  border: 0;
+  border-bottom: 1px solid lightgrey;
+  width: 60%;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+.my-btn-primary{
+  background-color: #1abc9c;
+  color: white;
+}
+
+
+
+
+@media all and (max-width: 699px) {
+  .divisore{
+    width: 58%;
+  }
 }
