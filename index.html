@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Bootstrap-freelancer</title>
   <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <link rel="stylesheet" href="./assets/master.css">
 <!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
 </head>
 <body>
 
@@ -30,16 +30,16 @@
 
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">PORTFOLIO</a></li>
-          <li><a href="#">About</a></li>
+          <li><a href="#portfolio">PORTFOLIO</a></li>
+          <li><a href="#about">About</a></li>
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CONTACT</a>
+            <a href="#contact" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CONTACT</a>
 
           </li>
         </ul>
       </div><!-- /.navbar-collapse -->
     </div>
-    </div><!-- /.container -->
+   </div> <!--/.container -->
   </nav>
 </header>
 
@@ -56,7 +56,7 @@
 
  </section>
 
- <section class="portfolio">
+ <section id="portfolio">
    <div class="container text-center">
 
      <h1 class="text-uppercase">portfolio</h1>
@@ -66,37 +66,61 @@
 
      <div class="row">
       <div class="col-xs-12 col-sm-6  col-lg-4">
+        <div class="contenitore">
+        <i class="fas fa-plus"></i>
         <img src="./assets/img/cabin.png" alt="casa di legno">
-       </div>
-       <div class="col-xs-12 col-sm-6 col-lg-4">
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-6 col-lg-4">
+        <div class="contenitore">
+        <i class="fas fa-plus"></i>
         <img src="./assets/img/cake.png" alt="torta">
-       </div>
-       <div class="col-xs-12 col-sm-6  col-lg-4">
-        <img src="./assets/img/circus.png" alt="circo">
+        </div>
       </div>
 
 
-    <!-- <div class="row"> -->
-       <div class="col-xs-12 col-sm-6  col-lg-4">
-        <img src="./assets/img/game.png" alt="casa di legno">
+      <div class="col-xs-12 col-sm-6  col-lg-4">
+        <div class="contenitore">
+        <i class="fas fa-plus"></i>
+        <img src="./assets/img/circus.png" alt="circo">
+        </div>
+      </div>
+
+
+        <div class="col-xs-12 col-sm-6  col-lg-4">
+         <div class="contenitore">
+           <i class="fas fa-plus"></i>
+           <img src="./assets/img/game.png" alt="casa di legno">
+         </div>
+        </div>
+
+       <div class="col-xs-12 col-sm-6 col-lg-4">
+         <div class="contenitore">
+           <i class="fas fa-plus"></i>
+           <img src="./assets/img/safe.png" alt="torta">
+         </div>
        </div>
+
        <div class="col-xs-12 col-sm-6 col-lg-4 ">
-        <img src="./assets/img/safe.png" alt="torta">
+         <div class="contenitore">
+          <i class="fas fa-plus"></i>
+          <img src="./assets/img/submarine.png" alt="circo">
+         </div>
        </div>
-       <div class="col-xs-12 col-sm-6 col-lg-4 ">
-        <img src="./assets/img/submarine.png" alt="circo">
-       </div>
+       
     </div>
-   <!-- </div> -->
+    </div>
   </section>
 
- <section class="about bg-green">
+ <section id="about" class="bg-green">
     <div class="container">
-     <h1 class="text-uppercase color-white">about</h1>
-     <div class="divisore">
+      <h1 class="text-uppercase color-white">about</h1>
+      <div class="divisore">
        <i class="fas fa-star"></i>
-     </div>
-     <div class="row text-left">
+      </div>
+
+      <div class="row text-left">
        <div class="col-lg-4 col-lg-offset-2">
          <p class="color-white">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization</p>
        </div>
@@ -104,12 +128,12 @@
        <div class="col-lg-4">
          <p class="color-white">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
        </div>
-     </div>
-    <button type="button" class="btn btn-lg color-white">Free Download!</button>
+      </div>
+       <button type="button" class="btn btn-lg color-white"><i class="fas fa-download"></i> Free Download!</button>
     </div>
  </section>
 
- <section class="contact-me text-center">
+ <section id="contact" class="contact-me text-center">
    <h1 class="text-uppercase">contact me</h1>
    <div class="divisore color-black mg-bottom">
      <i class="fas fa-star black"></i>
@@ -123,18 +147,38 @@
   </div>
  </section>
  </main>
-  <footer>
+
+  <footer class="color-white">
     <div class="container-fluid">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-4">
-            <p>LOCATION 2215 John Daniel Drive
-            Clark, MO 65243</p>
+        <div class="row ">
+
+          <div class="col-lg-4 col-xs-12 text-center">
+            <h3>LOCATION</h3>
+          <p class="spazio"> 2215 John Daniel Drive Clark, MO 65243</p>
           </div>
-          <div class="col-lg-4"></div>
-          <div class="col-lg-4"></div>
+
+          <div class="col-lg-4 col-xs-12 text-center">
+            <h3>AROUND THE WEB</h3>
+          <ul>
+           <li class="inline"> <i class="fab fa-facebook-f"></i></li>
+           <li class="inline"> <i class="fab fa-twitter"></i></li>
+           <li class="inline"> <i class="fab fa-invision"></i></li>
+           <li class="inline"> <i class="fab fa-dribbble"></i></li>
+          </ul>
+          </div>
+
+          <div class="col-lg-4 col-xs-12 text-center">
+            <h3>ABOUT FREELANCER</h3>
+            <p class="spazio">Freelance is a free to use, MIT licensed Bootstrap theme created by <span id="speciale"> Start Bootstrap </span>.</p>
+          </div>
         </div>
+
       </div>
+
+    </div>
+    <div class="copyright text-center">
+      <p>Copyright © Your Website 2020</p>
     </div>
   </footer>
 
