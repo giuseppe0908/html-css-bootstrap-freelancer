@@ -46,86 +46,94 @@
  <main>
  <section class="bg-green">
    <div class="container trasparente">
-     <img src="./assets/img/avataaars.svg" alt="uomo">
-     <h1 class="color-white">START BOOTSTRAP</h1>
-     <div class="divisore">
-        <i class="fas fa-star"></i>
+     <div class="row">
+      <div class="col-lg-12">
+        <img src="./assets/img/avataaars.svg" alt="uomo">
+      </div>
+     <div class="col-lg-12">
+       <h1 class="color-white">START BOOTSTRAP</h1>
      </div>
+    <div class="col-lg-12 col-xs-12">
+      <div class="divisore">
+         <i class="fas fa-star"></i>
+      </div>
+    </div>
+
      <p class="color-white">Graphic Artist - Web Designer - Illustrator</p>
+     </div>
   </div> <!-- /.container-->
 
  </section>
 
  <section id="portfolio">
    <div class="container text-center">
+     <div class="row">
+     <div class="col-lg-12">
+       <h1 class="text-uppercase">portfolio</h1>
+     </div>
 
-     <h1 class="text-uppercase">portfolio</h1>
      <div class="divisore color-black">
        <i class="fas fa-star black"></i>
      </div>
+     </div>   <!-- CHIUSURA ROW -->
 
      <div class="row">
       <div class="col-xs-12 col-sm-6  col-lg-4">
-        <div class="contenitore">
+        <div class="contenitore casa-legno"></div>
         <i class="fas fa-plus"></i>
-        <img src="./assets/img/cabin.png" alt="casa di legno">
-        </div>
       </div>
 
       <div class="col-xs-12 col-sm-6 col-lg-4">
-        <div class="contenitore">
+        <div class="contenitore torta"></div>
         <i class="fas fa-plus"></i>
-        <img src="./assets/img/cake.png" alt="torta">
-        </div>
       </div>
 
 
       <div class="col-xs-12 col-sm-6  col-lg-4">
-        <div class="contenitore">
+        <div class="contenitore circo"></div>
         <i class="fas fa-plus"></i>
-        <img src="./assets/img/circus.png" alt="circo">
-        </div>
       </div>
 
 
         <div class="col-xs-12 col-sm-6  col-lg-4">
-         <div class="contenitore">
+         <div class="contenitore gioco"></div>
            <i class="fas fa-plus"></i>
-           <img src="./assets/img/game.png" alt="casa di legno">
-         </div>
         </div>
 
+
        <div class="col-xs-12 col-sm-6 col-lg-4">
-         <div class="contenitore">
+         <div class="contenitore cassaforte"></div>
            <i class="fas fa-plus"></i>
-           <img src="./assets/img/safe.png" alt="torta">
-         </div>
        </div>
 
+
        <div class="col-xs-12 col-sm-6 col-lg-4 ">
-         <div class="contenitore">
+         <div class="contenitore submarine"></div>
           <i class="fas fa-plus"></i>
-          <img src="./assets/img/submarine.png" alt="circo">
-         </div>
        </div>
-       
+
+
     </div>
-    </div>
+  </div> <!-- chiusura container -->
   </section>
 
  <section id="about" class="bg-green">
     <div class="container">
-      <h1 class="text-uppercase color-white">about</h1>
+     <div class="row">
+      <div class="col-lg-12">
+        <h1 class="text-uppercase color-white">about</h1>
+      </div>
+     </div>
       <div class="divisore">
        <i class="fas fa-star"></i>
       </div>
 
       <div class="row text-left">
-       <div class="col-lg-4 col-lg-offset-2">
+       <div class="col-lg-4 col-sm-6 col-lg-offset-2">
          <p class="color-white">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization</p>
        </div>
 
-       <div class="col-lg-4">
+       <div class="col-lg-4 col-sm-6 ">
          <p class="color-white">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
        </div>
       </div>
@@ -138,13 +146,36 @@
    <div class="divisore color-black mg-bottom">
      <i class="fas fa-star black"></i>
    </div>
-  <div class="container form">
-   <input type="text" name="" placeholder="Name">
-   <input type="email" name="" placeholder="Email Address">
-   <input type="text" name="" placeholder="Phone Number">
-   <textarea  name="name" rows="6" cols="80" placeholder="Message"></textarea>
+  <div class="form">
+    <div class="row">
+    <div class="col-xs-12 col-sm-12 col-lg-12">
+      <input type="text" name="name" placeholder="Name">
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-xs-12 col-sm-12 col-lg-12">
+      <input type="email" name="name" placeholder="Email Address">
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-xs-12 col-sm-12 col-lg-12">
+      <input type="text" name="name" placeholder="Phone Number">
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-xs-12 col-sm-12 col-lg-12">
+      <textarea  name="name" rows="6" cols="80" placeholder="Message"></textarea>
+    </div>
+    </div>
+
+
+
+   <div class="row">
+   <div class="col-xs-12 col-sm-12 col-lg-12">
    <button class="btn my-btn-primary btn-xl" id="sendMessageButton" type="submit">Send</button>
-  </div>
+   </div>
+   </div><!-- chiusura row -->
+ </div>  <!--chiusura container -->
  </section>
  </main>
 
@@ -153,12 +184,12 @@
       <div class="container">
         <div class="row ">
 
-          <div class="col-lg-4 col-xs-12 text-center">
+          <div class="col-lg-4 col-sm-4 col-xs-12  text-center">
             <h3>LOCATION</h3>
           <p class="spazio"> 2215 John Daniel Drive Clark, MO 65243</p>
           </div>
 
-          <div class="col-lg-4 col-xs-12 text-center">
+          <div class="col-lg-4 col-sm-4 col-xs-12  text-center">
             <h3>AROUND THE WEB</h3>
           <ul>
            <li class="inline"> <i class="fab fa-facebook-f"></i></li>
@@ -168,7 +199,7 @@
           </ul>
           </div>
 
-          <div class="col-lg-4 col-xs-12 text-center">
+          <div class="col-lg-4 col-sm-4 col-xs-12 text-center">
             <h3>ABOUT FREELANCER</h3>
             <p class="spazio">Freelance is a free to use, MIT licensed Bootstrap theme created by <span id="speciale"> Start Bootstrap </span>.</p>
           </div>
