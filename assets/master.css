@@ -127,71 +127,44 @@ margin-bottom: 67px;
   margin-bottom: 30px;
   font-size: 48px;
 }
-
-.contenitore{
-  height: 250px;
-  width: 100%;
-  border-radius: 16px;
-  background-size: 100%;
-  background-position: center;
-  /* margin-top: 50px; */
-}
-
-.casa-legno{
-  background-image: url(../assets/img/cabin.png);
-}
-.torta{
-  background-image: url(../assets/img/cake.png);
-}
-.circo{
-  background-image: url(../assets/img/circus.png);
-}
-.gioco{
-  background-image: url(../assets/img/game.png);
-}
-.cassaforte{
-  background-image: url(../assets/img/safe.png);
-}
-.submarine{
-  background-image: url(../assets/img/submarine.png);
-}
- #portfolio > .container > .row > .col-lg-4 {
+#portfolio > .container > .row .col-lg-4{
   margin-bottom: 20px;
- }
-
- /* #portfolio .row > .col-lg-4 > .contenitore{
-   position: relative;
 }
-#portfolio > .container > .row > .col-lg-4 > .fas{
+
+.card{
+  border-radius: 16px;
+  overflow: hidden;
+  position: relative;
+}
+
+.card img{
+  width: 100%;
+  margin-top: 0;
+}
+.card .layover{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(26, 188, 156, 0.9);
+  color: white;
+  display: none;
+}
+
+  #portfolio > .container > .row > .col-lg-4 > .card .layover i{
   position: absolute;
   top: 50%;
-  bottom: 50%;
-  text-align: center;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-size: 50px;
-  display:none;
-} */
-  #portfolio > .container > .row > .col-lg-4 >  .fas{
-  position: relative;
-  top: -148px;
-  font-size: 50px;
-  display:none;
+  display: block;
 }
- #portfolio > .container > .row > .col-lg-4 > .contenitore:hover + .fas{
-   display: block;
-   color: white;
- }
- .contenitore{
-   transition: all 1s;
- }
-  .contenitore:hover{
 
-   /* background: rgba(76, 175, 80, 0.9); */
-   background: green;
-   opacity: 0.2;
+ #portfolio > .container > .row > .col-lg-4 > .card:hover .layover{
+   display: block;
    cursor: pointer;
  }
-
-
 
 /*--- SECTION ABOUT ---*/
 
